@@ -6,6 +6,7 @@ import org.mapstruct.factory.Mappers;
 import org.rezatron.student.dto.StudentDTO;
 import org.rezatron.student.entity.Student;
 
+
 @Mapper(componentModel = "spring")
 public interface StudentMapper {
 
