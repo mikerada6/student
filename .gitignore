@@ -1,34 +1,61 @@
-HELP.md
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+*.out
+
+# Spring Boot
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+!src/main/resources/
+!src/test/resources/
+*.iml
+*.iws
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Maven
+.mvn/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
 
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+.gradle-cache/
+gradle-app.setting
+.gradle-build-config/
+
+# IDEs and Tools
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+### Eclipse ###
+.project
+.classpath
+.settings/
+.springBeans
 
 ### VS Code ###
 .vscode/
-src/main/java/org/rezatron/student/StudentApplication.java
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# User-Specific Files
+*.env
+# *.properties
+.env.local
+.env.*.local
+secrets/
